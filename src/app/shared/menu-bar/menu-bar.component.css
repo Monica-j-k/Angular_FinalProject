@@ -1,0 +1,53 @@
+.menu-bar{
+    background-color: rgba(1, 12, 23, 0.895) !important;
+    color: rgb(219, 224, 222) ! important;
+}
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.field{
+    margin-left: 300px; 
+}
+ul{
+    margin-left: 200px;
+    float: right;
+    margin-top: auto;
+}
+
+/* ul:has(app-menu-bar){
+    margin-left: 200px;
+    float: right;
+} */
+li {
+    float: left;
+    list-style-type: none;
+    margin-left: 50px;
+    margin-right: 2px;
+}
+
+a {
+    color: rgb(171, 150, 150);
+    size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    color: white;
+}
+
+a:active {
+    color: burlywood;
+}
+
+.icon{
+    float:inline-end;
+}
+
+.badge{
+    border-style:inset;
+}
+

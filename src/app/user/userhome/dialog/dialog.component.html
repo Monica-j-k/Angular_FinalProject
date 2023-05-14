@@ -1,0 +1,43 @@
+<h1 mat-dialog-title>Add Product Form</h1>
+<div mat-dialog-content>
+    <form [formGroup]="foodForm">
+
+    <mat-form-field appearance="outline">
+        <mat-label>Food name</mat-label>
+        <input formControlName="foodName" matInput placeholder="Name">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Category</mat-label>
+        <mat-select formControlName="category">
+          <mat-option>None</mat-option>
+          <mat-option *ngFor="let category of categories" [value]="category">{{category}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Description</mat-label>
+        <textarea formControlName="description" matInput></textarea>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Price</mat-label>
+        <input formControlName="price" matInput type="number" placeholder="price">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Choose a date</mat-label>
+        <input formControlName="date"  matInput [matDatepicker]="picker">
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+    </form>  
+
+    
+</div>
+
+<div mat-dialog-action [align]="'end'">
+    <button mat-raised-button color="basic" mat-dialog-close>Close</button>
+    <button mat-raised-button color="accent" style="margin-left: 8px;" (click)="addFood()">Save</button>
+</div>

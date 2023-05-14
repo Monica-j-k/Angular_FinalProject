@@ -1,0 +1,570 @@
+{
+  "users": [
+    {
+      "email": "anil@gmail.com",
+      "password": "$2a$10$qLCzxp8bYoFl0TUnM3khkOQed/oj6p0Vi9m91/WIlZqn6dzwsD4Iu",
+      "firstname": "Anil",
+      "lastname": "Kumar",
+      "isAdmin": true,
+      "id": 1
+    },
+    {
+      "email": "rahul@gmail.com",
+      "password": "$2a$10$GN3udmMj3FOG3Ya.tp5VmuBqBVwY0dYU1ro74BpVxs8xB0./Gqw8m",
+      "username": "rahul",
+      "lastname": "krishna",
+      "type": "user",
+      "isAdmin": false,
+      "id": 3
+    },
+    {
+      "email": "roger@gmail.com",
+      "password": "$2a$10$8VfL/mTrUsF7CsmFZBNCXuYKao0PM9CrOIxTn0iqWYoKD0vwPE1AC",
+      "username": "roger",
+      "lastname": "Federer",
+      "type": "admin",
+      "isAdmin": true,
+      "id": 4
+    },
+    {
+      "email": "kiran@gmail.com",
+      "password": "$2a$10$QxNGN1c9fIgWiQ5KHNwZnOWlZq8cJm/xM27oriUKLGptO8s9Pb2bq",
+      "username": "kiran",
+      "type": "user",
+      "isAdmin": false,
+      "id": 5
+    },
+    {
+      "email": "jackson@gmail.com",
+      "password": "$2a$10$.ZPImtvO49SX6YMHepjxV.PXhJoEDXuxnCtHG2bQ2KY/NErZ0SGYW",
+      "username": "jackson",
+      "type": "admin",
+      "lastname": "Mike",
+      "isAdmin": true,
+      "id": 6
+    },
+    {
+      "email": "naresh@gmail.com",
+      "password": "$2a$10$OhQd/XS2d3PAiWrNnYWXleoGC.2bMdZajo/yd5BSAxbGeqLw7YtEO",
+      "username": "naresh",
+      "type": "user",
+      "lastname": "Mike",
+      "isAdmin": false,
+      "id": 7
+    },
+    {
+      "email": "harish1@gmail.com",
+      "password": "$2a$10$svGznVNLN48xPFxadLPhLOxfYzOIpTgi8wahFfuptRKoXlAAZWsqa",
+      "username": "harish1",
+      "type": "user",
+      "isAdmin": false,
+      "id": 8
+    },
+    {
+      "email": "jagan40@gmail.com",
+      "password": "$2a$10$1jVSqWrL78EtCQtLZKdPuuHqAx5dkJwdvv5/iTIAcPjgYXcdLbLZS",
+      "username": "Jagan",
+      "type": "admin",
+      "isAdmin": true,
+      "id": 10
+    },
+    {
+      "email": "monicajagan20@gmail.com",
+      "password": "$2a$10$1jVSqWrL78EtCQtLZKdPuuHqAx5dkJwdvv5/iTIAcPjgYXcdLbLZS",
+      "username": "Monica J K",
+      "type": "user",
+      "isAdmin": false,
+      "id": 11
+    },
+    {
+      "email": "kavitha@gmail.com",
+      "password": "$2a$10$JluGWD16GOe08nbXGK3WrODm3KcAppQ4tzjxdy6CM13KNHJaCWivK",
+      "username": "Kavitha",
+      "type": "user",
+      "id": 12
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Chicken Briyani",
+      "type": "Non-veg",
+      "price": "200",
+      "image": "Briyani.jpg",
+      "description": "Chicken Biryani is a savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together. The bottom layer of rice absorbs all the chicken juices as it cooks, giving it a tender texture and rich flavor, while the top layer of rice turns out white and fluffy. Buried in the Biryani, you'll find whole cuts of succulent chicken bursting with flavor from the potent array of spices, herbs, and aromatics it's marinated in."
+    },
+    {
+      "id": 2,
+      "name": "Meen Pollichathu",
+      "type": "Non-veg",
+      "price": "100",
+      "image": "fish.jpg",
+      "description": "Meen pollichathu is a Kerala-style dish which is first cooked in coconut oil and then wrapped in a banana leaf (vazhayila). This dish traditionally features karimeen, pearl spot fish. During his trip to Kerala, Anthony Bourdain compared the technique of cooking the fish in banana leaf to the classic French technique of fish en papillote (fish steamed in parchment pouches). The flavor penetrates well into the fish, and the aroma of banana leaf is divine."
+    },
+    {
+      "id": 3,
+      "name": "Hyderabadi Dum Biryani",
+      "type": "Non-veg",
+      "price": "260",
+      "image": "hydum.jpg",
+      "description": "Hyderabadi biryani, also known as Hyderabadi dum biryani, is a style of biryani from Hyderabad, India, made with basmati rice and goat meat and cooked using the dum pukht method. Originating in the kitchens of the Nizam of Hyderabad, it combines elements of Hyderabadi and Mughlai cuisines."
+    },
+    {
+      "id": 4,
+      "name": "Chicken 65",
+      "type": "Non-veg",
+      "price": "80",
+      "image": "chicken65.jpg",
+      "description": "Chicken 65 is a spicy, deep-fried chicken dish originating from Hotel Buhari, Chennai, India, as an entrée, or quick snack. The flavor of the dish can be attributed to red chilies, but the exact set of ingredients for the recipe can vary. It can be prepared using boneless or bone-in chicken and is usually served with onion and lemon garnish. There is much speculation about why the dish is called Chicken 65. Some people say the number 65 refers to the 65 different spices or chili peppers added to the dish; others say the dish was invented in the year 1965, and some say it is called Chicken 65 because the dish is prepared from a bird just 65 days old."
+    },
+    {
+      "id": 5,
+      "name": "Chicken Kothu Parotta",
+      "type": "Non-veg",
+      "price": "120",
+      "image": "kothu.jpg",
+      "description": "A popular street food delicacy, this dish is made using flaky parottas that are shredded and tossed in onions, tomatoes, chilies, and a spicy kurma, usually topped with scrambled eggs or shredded chicken or mutton. This dish is also famous in Sri Lanka and is available in parts of Malaysia, Singapore, and Thailand. The name originates from the Tamil word Kothu, or shred, which literally calls for the bread to be shredded in a rhythmic manner over a flat pan, similar to the teppanyaki style of cooking. It is usually enjoyed with a side of onions, cucumber, and coconut chutney. This dish is the perfect answer to those rainy day hunger pangs."
+    },
+    {
+      "id": 6,
+      "name": "Paal Payasam",
+      "type": "Sweets",
+      "price": "90",
+      "image": "paalpaya.jpg",
+      "description": "Payasam is a sweet dish and a type of wet pudding popular in the Indian subcontinent usually made by boiling milk, sugar or jaggery, and rice, although rice may be substituted with one of the following: daals, bulgur wheat, millet, tapioca, vermicelli, or sweet corn. It is typically flavored with desiccated coconut, cardamom, raisins, saffron, cashews, pistachios, almonds, or other dry fruits and nuts, and, recently, pseudo-grains have also been gaining popularity. It is typically served as dessert. "
+    },
+    {
+      "id": 7,
+      "name": "Ada Pradhaman",
+      "type": "Sweets",
+      "price": "85",
+      "image": "Adaprad.jpg",
+      "description": "This is a classic dessert from Kerala, which is popular during the festival of Onam. Ada Pradhaman is a variation of payasam, made with ada rice, cashew nuts, coconut, and palm jaggery mixed well. It is a quick, easy, and delicious Indian dessert to relish during the festive season. The main ingredient of wafers/noodles is made of rice flour, known as ada. Traditionally, the rice ada is made fresh to be used on the same day. Ada Pradhaman and Palada made fresh are definitely a treat. Cardamom, coconut milk, and jaggery are the main flavoring agents in this dessert."
+    },
+    {
+      "id": 8,
+      "name": "Chettinad Chicken",
+      "type": "Non-veg",
+      "price": "200",
+      "image": "chettinadu.jpg",
+      "description": "The food of Tamil Nadu is mild spiced, mostly vegetarian, light but absolutely sensational. This is with the exception of Chettinad food, which is top of the pile. It's also known to be extremely spicy but the kind that stems from pepper and not chilli. It also boasts of heavy local spices like star anise, kalpasi (stone flower) and maratti mokku (dried flower pods), freshly ground spices including cumin, fenugreek, fennel, clove, bay leaf, turmeric and tamarind."
+    },
+    {
+      "id": 9,
+      "name": "Mutton Vadai",
+      "type": "Starters",
+      "price": "90",
+      "image": "muttonvada.jpg",
+      "description": "A mutton Vadai recipe is prepared using minced mutton (keema). The meat is mixed with a wide variety of spices that are found in almost every household. While modern tastebuds demand a variety of cooking methods such as shallow frying and baking, the traditional way of making a vadai is deep frying the spiced meatballs until they are perfectly golden in colour."
+    },
+    {
+      "id": 10,
+      "name": "Dosa",
+      "type": "Veg",
+      "price": "30",
+      "image": "dosa.jpg",
+      "description": "A dosa, also called dosey, dosai, is a thin pancake in South Indian cuisine made from a fermented batter of ground black lentils and rice. Dosas are popular in South Asia as well as around the world. Dosas are served hot, often with chutney and sambar."
+    },
+    {
+      "id": 11,
+      "name": "Chola Poori",
+      "type": "Veg",
+      "price": "70",
+      "image": "chola.jpg",
+      "description": "Bhature (Chola Poori) is a very popular dish served anytime across India. Bhature is different from the regular poori in terms of the its size and the ingredients used. A typical poori at home is made using regular wheat flour, salt and water. But Bhature is made using Maida, ghee, curd and baking soda. The sheer size and puffed up look is what makes is endearing to everyone, especially children. Not surprisingly, this delicious dish is once again originated from the rich food lands of Punjab. Unlike a regular poori, the Bhature is served only with Channa Chole (a spicy dish made from chickpeas), a few rings of raw onion and a sliver of lemon and maybe a knob of butter (if you are truly eating it in Punjab)."
+    },
+    {
+      "id": 12,
+      "name": "Masala Dosa",
+      "type": "Veg",
+      "price": "50",
+      "image": "masaldosa.jpg",
+      "description": "Masala Dosa, also called Masale dosey ( ಮಸಾಲೆ ದೋಸೆ ), is a South Indian dish. It is a type of dosa and has its origin in the town of Udupi in Karnataka. It is made from rice, lentils, Urad dal, Chana dal, fenugreek, puffed rice, Toor dal, dry red chilli and served with potato curry, chutneys, and sambar. "
+    },
+    {
+      "id": 13,
+      "name": "Uttapam",
+      "type": "Veg",
+      "price": "40",
+      "image": "uttapam.jpg",
+      "description": "Uttapams are traditionally made with toppings such as tomatoes, onion, chillies, capsicum and coriander; other common choices are coconut, grated carrots and beets. They are often eaten with sambar or chutney."
+    },
+    {
+      "id": 14,
+      "name": "Pav Bhaji",
+      "type": "Chaat Items",
+      "price": "40",
+      "image": "pav_bajji.jpg",
+      "description": "Pav bhaji is a spiced mixture of mashed vegetables in a thick gravy served with bread. Vegetables in the curry may commonly include potatoes, onions, carrots, chillies, peas, bell peppers and tomatoes. Street sellers usually cook the curry on a flat griddle (tava) and serve the dish hot."
+    },
+    {
+      "id": 15,
+      "name": "Creamy Tomato Soup",
+      "type": "Starters",
+      "price": "60",
+      "image": "tomatosoup.jpg",
+      "description": "This is the classic Indian tomato soup recipe that tastes just like your favorite Indian restaurant. A perfect comforting soup for wintery days when served with some croutons, garlic bread, grilled cheese or chilli cheese toast. This creamy tomato soup is made from scratch in under 30 minutes using instant pot."
+    },
+    {
+      "id": 16,
+      "name": "Idli",
+      "type": "Veg",
+      "price": "30",
+      "image": "idli.jpg",
+      "description": "Idlis are rice cakes made from steamed batter of fermented black lentils and rice. Sometimes instead of rice and lentils, semolina is used. It is usually served with sambar, coconut chutneys."
+    },
+    {
+      "id": 17,
+      "name": "Pongal",
+      "type": "Veg",
+      "price": "50",
+      "image": "pongal.jpg",
+      "description": "Pongal is associated with the Pongal festival. The festival thanks the Sun deity for the sunlight that makes the rice harvest possible. Therefore, the tradition calls for offering the fresh harvest of rice cooked in boiling milk to the deity."
+    },
+    {
+      "id": 18,
+      "name": "Dhokla",
+      "type": "Veg",
+      "price": "150",
+      "image": "dhokla.jpg",
+      "description": "Dhokla is a savoury sponge dish that is native to the Indian state of Gujarat and parts of adjacent states, and is popular throughout the country."
+    },
+    {
+      "id": 19,
+      "name": "Poha",
+      "type": "Veg",
+      "price": "70",
+      "image": "poha.jpg",
+      "description": "Poha, also known as pauwa, sira, chira, aval (அவல்) or avalakki-in Kannada language (ಅವಲಕ್ಕಿ), among many other names, is flattened rice originating from the Indian subcontinent. Rice is parboiled before flattening so that it can be consumed with very little to no cooking."
+    },
+    {
+      "id": 20,
+      "name": "Panipuri",
+      "type": "Chat Items",
+      "price": "25",
+      "image": "pani.jpg",
+      "description": "Panipuri consists of a round hollow puri (a deep-fried crisp flatbread), filled with a mixture of flavored water (known as imli pani), tamarind chutney, chili powder, chaat masala, potato mash, onion, or chickpeas. Fuchka (or fuska or puska) differs from panipuri in content and taste."
+    },
+    {
+      "id": 21,
+      "name": "Gobi 65",
+      "type": "Starters",
+      "price": "40",
+      "image": "gobi65.jpg",
+      "description": "Gobi 65 is an interesting crispy tea time snack recipe made with cauliflower florets and spices. it is interesting because of the name it carries and it is assumed that it got its name from a military canteen. it is an ideal party starter or appetizer with a lip-smacking taste and flavour promised in each gobi florets."
+    },
+    {
+      "id": 22,
+      "name": "Prawn 65",
+      "type": "Starters",
+      "price": "50",
+      "image": "prawn.jpg",
+      "description": "Prawn 65 is a delicious South Indian starter or appetizer. This is a spicy and crispy dry preparation in which prawns are marinated with spices and deep fried. Prawn 65 is a delicious starter recipe found in South Indian restaurants specially in Tamil Nadu. This crispy prawn fry is a perfect evening snack. It can be served with drinks as a cocktail party appetizer. Shrimps can also be used in this recipe."
+    },
+    {
+      "id": 23,
+      "name": "Aloo Tikki",
+      "type": "Chaat Items",
+      "price": "30",
+      "image": "alloo.jpg",
+      "description": "This popular snack is India’s version of hash browns or potato pancakes. Aloo tikki is made from mashed, boiled potatoes mixed with peas, onions and spices. The mixture is formed into small patties and then fried. Aloo tikki is commonly served with an assortment of chutneys and yogurts for dipping. "
+    },
+    {
+      "id": 24,
+      "name": "Bread Omelette",
+      "type": "Chaat Items",
+      "price": "50",
+      "image": "breadom.jpg",
+      "description": "Bread Omelette is a delicious recipe that is easy to prepare and can be served hot with sauces and dips of your choice. To make this omelette recipe, you will require brown bread, eggs, green chilli, butter and onions with salt to taste."
+    },
+    {
+      "id": 25,
+      "name": "Dahi Vada",
+      "type": "Chaat Items",
+      "price": "35",
+      "image": "dahi.jpg",
+      "description": "The origins of this chaat is unknown as the dahi vada has its presence as Dahi Bhalla(Punjab), Doi Bora (Bengal), Thayir Vadai (Tamil Nadu), Mosare Vada (Karnataka) and Perugu Vade (Telangana) "
+    },
+    {
+      "id": 26,
+      "name": "Chicken Tikka",
+      "type": "Chaat Items",
+      "price": "70",
+      "image": "chicktik.jpg",
+      "description": "Chicken tikka is a chicken dish popularised in the Indian subcontinent during the Mughal era. The dish is popular in India, Bangladesh, Pakistan and the United Kingdom. It is traditionally small pieces of boneless chicken baked using skewers on a brazier called angeethi or over charcoal after marinating in Indian spices and dahi (yogurt)—essentially a boneless version of tandoori chicken."
+    },
+    {
+      "id": 27,
+      "name": "Fried Chicken Kebab",
+      "type": "Starters",
+      "price": "90",
+      "image": "kebab.jpg",
+      "description": "Fried chicken kebab is marinated and batter-coated chicken is deep-fried and served with fried onions and lemon wedges. This amazing chicken kebabs recipe is from a particular Banglore restaurant called “Banglore Empire Chicken Kebabs”. It is crispy on out and very juicy inside."
+    },
+    {
+      "id": 28,
+      "name": "Gulab Jamun",
+      "type": "Sweets",
+      "price": "50",
+      "image": "jamun.jpg",
+      "description": "Gulab jamun (also spelled gulaab jamun; lit. 'Rose water berry' or 'Rose berry') is a sweet confectionery or dessert, originating in the Indian subcontinent and a type of mithai popular in India, Pakistan, Nepal, the Maldives (where it is known as gulab ki janu), and Bangladesh, as well as Myanmar."
+    },
+    {
+      "id": 29,
+      "name": "Rasgulla",
+      "type": "Sweets",
+      "price": "50",
+      "image": "rasgulla.jpg",
+      "description": "Rasgulla is a traditional sweet that is usually served at the end of a meal, like many other Indian milk-based desserts. It is prepared from chhena paneer dumplings and semolina dough, cooked together in a sugary syrup. The origin of rasgulla is the subject of a heated debate, with West Bengal and Odisha both claiming to be the birthplace of the dessert."
+    },
+    {
+      "id": 30,
+      "name": "Mysore pak",
+      "type": "Sweets",
+      "price": "60",
+      "image": "mysorepak.jpg",
+      "description": "Mysore pak is an Indian sweet prepared in ghee. It originated in the city of Mysore, one of the major cities in the Indian state of Karnataka. It is made of generous amounts of ghee, sugar, gram flour, and often cardamom. The texture of this sweet is similar to a buttery and dense cookie. "
+    },
+    {
+      "id": 31,
+      "name": "Rasmalai",
+      "type": "Sweets",
+      "price": "80",
+      "image": "rasamalai.jpg",
+      "description": "Ras malai, originally known as rosomalai, or roshmalai, is a dessert from the Indian subcontinent. The dessert is called roshmalai/rosmalai in Bengali, ras malai in Hindi, and rasa malei in Odia. It is popular in India, Bangladesh and Pakistan."
+    },
+    {
+      "id": 32,
+      "name": "Kheer",
+      "type": "Sweets",
+      "price": "85",
+      "image": "kheer.jpg",
+      "description": "Kheer, also known as payasam, is a sweet dish and a type of wet pudding popular in the Indian subcontinent, usually made by boiling milk, sugar or jaggery, and rice, although rice may be substituted with one of the following: daals, bulgur wheat, millet, tapioca, vermicelli, or sweet corn."
+    },
+    {
+      "id": 33,
+      "name": "Orange Juice",
+      "type": "Juices",
+      "price": "50",
+      "image": "OrangeJuice.jpg",
+      "description": "Orange juice is obtained from the fruit pulp of the plant Citrus sinensis, also known as sweet orange. The orange fruit tree may be native to Asia, but it is now grown worldwide. Orange juice is either sweet or sour in taste. It is one of the most commonly consumed juices across the world. "
+    },
+    {
+      "id": 34,
+      "name": "Grapes Juice",
+      "type": "Juices",
+      "price": "40",
+      "image": "GrapeJuice.jpg",
+      "description": "Grape juice is obtained from crushing and blending grapes into a liquid. In the wine industry, grape juice that contains 7–23 percent of pulp, skins, stems and seeds is often referred to as must. The sugars in grape juice allow it to be used as a sweetener, and fermented and made into wine, brandy, or vinegar."
+    },
+    {
+      "id": 35,
+      "name": "Apple Juice",
+      "type": "Juices",
+      "price": "40",
+      "image": "AppleJuice.jpg",
+      "description": "Apple juice is a mixture of sugars (primarily fructose, glucose and sucrose), oligosaccharides and polysaccharides (e.g. starch), together with malic, quinic and citramalic acids, tannins (i.e. polyphenols), amides and other nitrogenous compounds, soluble pectin, vitamin C, minerals and a diverse range of esters that give the juice a typical apple-like aroma (e.g. ethyl- and methyl-iso-valerate)."
+    },
+    {
+      "id": 36,
+      "name": "Pineapple Juice",
+      "type": "Juices",
+      "price": "50",
+      "image": "Pine_Juice.jpg",
+      "description": "Pineapple juice has a range of vitamins and minerals that can boost your immunity. It's high in vitamin C, which can help protect your body against the common cold. It also contains enzymes that have been shown to activate a healthy immune system response."
+    },
+    {
+      "id": 37,
+      "name": "Mango Juice",
+      "type": "Juices",
+      "price": "50",
+      "image": "MangoJuice.jpg",
+      "description": "Mango juice contains many nutrients like carbohydrates, fibre, sugars, minerals and vitamins. Minerals like calcium, potassium, phosphorous, zinc, iron, etc. It contains certain bioactive components like quercetin, gallic acid, mangiferin, etc."
+    },
+    {
+      "id": 38,
+      "name": "Strawberry Juice",
+      "type": "Juices",
+      "price": "60",
+      "image": "StrawberryJuice.jpg",
+      "description": "Strawberry Juice is a refreshing fresh fruit juice that is full of vitamin C and antioxidants and lot of invigorating flavor. Apart from fresh and ripe strawberries, this recipe also uses lime juice to make it tantalizing."
+    },
+    {
+      "id": 39,
+      "name": "Canberry Juice",
+      "type": "Juices",
+      "price": "60",
+      "image": "CanberryJuice.jpg",
+      "description": "Cranberry juice is a delicious beverage with an attractive bright red colour thanks to the anthocyanin pigment present in it. It has high amount of acidity and tartness and less amount of sugars, making it a great combination with other sweet fruit juices."
+    },
+    {
+      "id": 40,
+      "name": "Sugarcane Juice",
+      "type": "Juices",
+      "price": "30",
+      "image": "Suagrcane_Juice.jpg",
+      "description": "Drinking sugarcane juice daily has several health benefits. Being a natural low-cholesterol, low-sodium food, with no saturated fats, sugarcane juice helps keep the kidneys in top shape. The high concentration of calcium, magnesium, potassium, iron, and manganese makes sugarcane juice alkaline in nature."
+    },
+    {
+      "id": 41,
+      "name": "Onion Dosa",
+      "type": "Veg",
+      "price": "45",
+      "image": "oniondosa.jpg",
+      "description": "Onion Dosa is an excellent and tasty, crispy instant breakfast recipe made with finely chopped onions and rava and rice flour dosa batter. it is basically an extension of the popular crispy rava dosa recipe with a generous amount of onions. it can be an ideal morning breakfast recipe that does not require any additional grounding, or fermentation and can be prepared within minutes."
+    },
+    {
+      "id": 42,
+      "name": "Bhelpuri",
+      "type": "Chaat Items",
+      "price": "35",
+      "image": "bhelpuri.jpg",
+      "description": "Bhelpuri is a savoury snack originally from India, and is also a type of chaat. It is made of puffed rice, vegetables and a tangy tamarind sauce, and has a crunchy texture. Bhel is often identified as a 'beach snack', strongly associated with the beaches of Mumbai, such as Chowpatty or Juhu."
+    },
+    {
+      "id": 43,
+      "name": "Samosa",
+      "type": "Chaat Items",
+      "price": "15",
+      "image": "samosa.jpg",
+      "description": "A samosa or singara is a fried South Asian pastry with a savoury filling, including ingredients such as spiced potatoes, onions, and peas. It may take different forms, including triangular, cone, or half-moon shapes, depending on the region."
+    },
+    {
+      "id": 44,
+      "name": "Nacho Cheese Sauce",
+      "type": "Starters",
+      "price": "40",
+      "image": "nacho-cheese-sauce.jpg",
+      "description": "Nacho cheese sauce is so stinkin delicious. It is basically a cheese gravy, and what’s not to like about that? This is good as a dip with tortilla chips, or on a giant plate of nachos. However you like it, you are going to love this cheese sauce."
+    },
+    {
+      "id": 45,
+      "name": "Jalebi",
+      "type": "Sweets",
+      "price": "70",
+      "image": "Jalebi.jpg",
+      "description": "Jalebi, is a popular sweet snack in south and west Asia, Africa, and Mauritius. It goes by many names, including jilapi, zelepi, jilebi, jilipi, zulbia, jerry, mushabak, z’labia, or zalabia."
+    },
+    {
+      "id": 46,
+      "name": "Papdi Chaat",
+      "type": "Chaat Items",
+      "price": "40",
+      "image": "papdi.jpg",
+      "description": "Papdi chaat is a popular North Indian street food snack filled with a variety of mouth-watering textures and flavors. Papri Chaat includes chickpeas, potatoes, various chutneys, yogurt, papdi, curd, sev and is garnished with coriander. Serve this tasty dish immediately as a snack."
+    },
+    {
+      "id": 47,
+      "name": "Egg-Fried Rice",
+      "type": "Non-veg",
+      "price": "90",
+      "image": "eggrice.jpg",
+      "description": "Egg fried rice recipe made in restaurant style, simple, quick and easy. The smoky aroma of the egg fried rice is great & delicious!!"
+    },
+    {
+      "id": 48,
+      "name": "French Fries",
+      "type": "Starters",
+      "price": "70",
+      "image": "french.jpg",
+      "description": "French fries (called chips in the United Kingdom, Ireland and Commonwealth, French fried potatoes or just fries in North America), is a potato-based dish that originated in Belgium. The potatoes are cut into thin strips and fried in oil. In the UK chips are seen as different to fries with chips being thicker cut than the thinner fries."
+    },
+    {
+      "id": 49,
+      "name": "Hyderabadi Keema",
+      "type": "Non-veg",
+      "price": "150",
+      "image": "kheema.jpg",
+      "description": "Hyderabadi mutton keema recipe accentuates the taste of keema and makes a mouth-watering masaledaar dish. It would taste great with some rotis or pair it with some tandoori naan."
+    },
+    {
+      "id": 50,
+      "name": "Pepper Mushroom Fry",
+      "type": "Starters",
+      "price": "65",
+      "image": "mushroom.jpg",
+      "description": "This mushroom pepper roast is spicy because we loooove pepper and always put lots of it. The tangy tomato paste that goes into it gives the dish an acidic hit. And this is a super-fast mushroom recipe, it literally takes about 15 minutes to put it all together. And we’re in mushroomy umami paradise. "
+    },
+    {
+      "id": 51,
+      "name": "Pomegranate",
+      "type": "Juices",
+      "price": "50",
+      "image": "pome_Juice.jpg",
+      "description": "Pomegranate contains antioxidants and anti-inflammatory substances. Pomegranate juice may benefit people with inflammatory conditions, diabetes, and other health issues. It may also boost digestion and memory and help prevent cancer. "
+    },
+    {
+      "id": 52,
+      "name": "Kaju Katli",
+      "type": "Sweets",
+      "price": "75",
+      "image": "khaju.jpg",
+      "description": "Kaju katli also known as kaju barfi, is an Indian dessert similar to a barfi. Kaju means cashew; barfi is often made by thickening milk with sugar and other ingredients (such as dry fruits and mild spices). Kesar kaju katli includes saffron. "
+    }
+  ],
+  "cart": [],
+  "feedbacks": [
+    {
+      "id": 8473,
+      "name": "Monica",
+      "email": "monicajagan20@gmail.com",
+      "message": "I have ordered Masala Dosa."
+    },
+    {
+      "id": 8467,
+      "name": "Naresh",
+      "email": "naresh@gmail.com",
+      "message": "The foods was very tasty."
+    }
+  ],
+  "foodList": [
+    {
+      "foodName": "Palkova",
+      "category": "Sweets",
+      "description": "Palkova is a traditional South Indian Milk Sweet also popularly known as Theratipaal.",
+      "price": 80,
+      "date": "2023-05-13T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "foodName": "Fish Fry",
+      "category": "Non-veg",
+      "description": "A fish fry is a meal containing battered or breaded fried fish.",
+      "price": 120,
+      "date": "2023-05-13T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "foodName": "Amla Juice",
+      "category": "Juices",
+      "description": "Papaya juice is a popular drink in many tropical countries.",
+      "price": 50,
+      "date": "2023-05-13T18:30:00.000Z",
+      "id": 3
+    },
+    {
+      "foodName": "Sev Puri",
+      "category": "Chaat Items",
+      "description": "Sev puri recipe is a canape like snack ",
+      "price": 50,
+      "date": "2023-05-13T18:30:00.000Z",
+      "id": 4
+    },
+    {
+      "foodName": "Veg Fried Rice",
+      "category": "Veg",
+      "description": "his classic Veg Fried Rice recipe is made with a hearty mix of fresh vegetables.",
+      "price": 80,
+      "date": "2023-05-13T18:30:00.000Z",
+      "id": 5
+    },
+    {
+      "foodName": "Tomato Soup",
+      "category": "Starters",
+      "description": "This easy tomato soup recipe with fresh tomatoes makes a comforting homemade tomato soup",
+      "price": 60,
+      "date": "2023-05-13T18:30:00.000Z",
+      "id": 6
+    }
+  ]
+}
